@@ -1,3 +1,15 @@
 <template>
-  <h1>Cats</h1>
+  <div>
+     <b-table striped hover :items="items"></b-table>
+  </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+
+    }
+  }
+}
+</script>
